@@ -21,13 +21,16 @@ int main (int argc, char *argv[]) {
             deleteFactura(); 
             break;
         case 5:
+            mostrarFacturaDetallada(); 
+            break;
+        case 6:
             printf("Saliendo...\n"); 
             break;
         default:
             printf("Opcion no valida\n"); 
             break;
         }
-    } while (opc != 5);
+    } while (opc != 6);
 
     return 0;
 }
